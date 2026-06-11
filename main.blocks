@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="YgWJd[lEByA*Bq-1%dNz">mySprite</variable><variable type="KIND_SpriteKind" id="cwrf`~w]WK|-S2.scI+L">Player</variable><variable type="KIND_SpriteKind" id="$R)*Ac_i(zcJ*3aluP!+">Projectile</variable><variable type="KIND_SpriteKind" id="A^qY1[8=O=uu7.Z{N@sb">Food</variable><variable type="KIND_SpriteKind" id="c@=E+OH#0d;*Ib$%#z(~">Enemy</variable></variables><block type="pxt-on-start" id="T/x-TMok3u]BJZHg#kkY" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="_ZL8}LVTsb*r?d.rL6_}"><field name="VAR" id="YgWJd[lEByA*Bq-1%dNz">mySprite</field><value name="VALUE"><shadow type="math_number" id="z[eLJiQH.2Dlz/-RrBMu"><field name="NUM">0</field></shadow><block type="spritescreate" id="9rc`K30gPYe834|VTHC*"><value name="img"><shadow type="screen_image_picker" id="mT3qTF^cSA]7ubYg5lsl"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="m5{50g6;@;E##*]SvLA)"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="run_image_animation" id="X.}lmTzr|(Ai61u1)XJ!"><value name="sprite"><block type="variables_get" id="6]dmlR/}i)):cFg9I|6["><field name="VAR" id="YgWJd[lEByA*Bq-1%dNz">mySprite</field></block></value><value name="frames"><shadow type="animation_editor" id="[U1Q@HbXQy@3d@fPb2$Q"><field name="frames">assets.animation`Butcher_RightIdle`</field><data>{"commentRefs":[],"fieldData":{"frames":"myAnimations.anim1"}}</data></shadow></value><value name="frameInterval"><shadow type="timePicker" id="zK%_{ELNar^3%n-ugZ^A"><field name="ms">500</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="Sf@7hkdJ4$eiF!KIw@~."><field name="on">true</field></shadow></value><next><block type="game_control_sprite" id="V,)Mt4Scz@QdtaPUov8A"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="DXw4Y):?D;~meA!dhGs;"><field name="VAR" id="YgWJd[lEByA*Bq-1%dNz">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="@rBnN%ZJ!aOv3,@IeKG#"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="M#YF:K3o/6??S{m`GVLL"><field name="speed">0</field></shadow></value></block></next></block></next></block></statement></block></xml>
